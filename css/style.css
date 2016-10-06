@@ -1,0 +1,76 @@
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.blink {
+  animation: blink 1000ms infinite; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.accent-color {
+  color: #ff2d57; }
+
+#canvasWrapper {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  display: inline-block; }
+  #canvasWrapper #pt {
+    position: relative;
+    overflow: hidden;
+    width: inherit;
+    height: inherit; }
+    #canvasWrapper #pt canvas {
+      width: 100%;
+      height: 100%; }
+  #canvasWrapper #blurDiv {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0; }
+  #canvasWrapper #overlay {
+    color: #ffffff;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5); }
+    #canvasWrapper #overlay #titleWrapper {
+      width: 100%;
+      text-align: center;
+      margin-top: 100px; }
+      #canvasWrapper #overlay #titleWrapper #title {
+        font-size: 50px;
+        font-family: Falcon Punch, sans-serif; }
+        #canvasWrapper #overlay #titleWrapper #title .subscript {
+          font-size: 30px; }
+      #canvasWrapper #overlay #titleWrapper .subtitle {
+        font-family: Falcon Punch, sans-serif;
+        font-size: 15px;
+        margin: 10px; }
+
+#countDownWrapper {
+  position: relative;
+  float: left;
+  overflow: hidden; }
+  #countDownWrapper #timer {
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 50px;
+    color: #111;
+    font-family: "Falcon Punch", sans-serif; }
+    #countDownWrapper #timer p {
+      margin-top: 10px; }
+    #countDownWrapper #timer #months {
+      font-size: 50px; }
+    #countDownWrapper #timer #days {
+      font-size: 25px; }
+    #countDownWrapper #timer #togo {
+      font-size: 25px;
+      margin-top: 50px; }
+
+/*# sourceMappingURL=style.css.map */
