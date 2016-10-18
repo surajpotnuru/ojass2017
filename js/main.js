@@ -1,7 +1,7 @@
 var canvas = $("#canvasWrapper");
 var side = $("#countDownWrapper");
 canvas.width($(window).width()*0.7).height($(window).height());
-side.width($(window).width()*0.25).height($(window).height());
+side.width($(window).width()*0.29).height($(window).height());
 
 var end = 'April 01 2017 08:00:00 GMT+0530';
 getRemainingTime = function(date){
